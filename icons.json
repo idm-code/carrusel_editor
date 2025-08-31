@@ -1,0 +1,212 @@
+{
+  "groups": [
+    {
+      "label": "Básicos",
+      "icons": [
+        { "class": "fa-solid fa-star", "label": "⭐ Estrella" },
+        { "class": "fa-solid fa-heart", "label": "❤️ Corazón" },
+        { "class": "fa-solid fa-bolt", "label": "⚡ Rayo" },
+        { "class": "fa-solid fa-circle-check", "label": "✔️ Aprobado" },
+        { "class": "fa-solid fa-circle-xmark", "label": "✖️ Error" },
+        { "class": "fa-solid fa-circle-info", "label": "ℹ️ Info" },
+        { "class": "fa-solid fa-lightbulb", "label": "💡 Idea" },
+        { "class": "fa-solid fa-bell", "label": "🔔 Aviso" }
+      ]
+    },
+    {
+      "label": "Flechas y navegación",
+      "icons": [
+        { "class": "fa-solid fa-arrow-right", "label": "➡️ Derecha" },
+        { "class": "fa-solid fa-arrow-left", "label": "⬅️ Izquierda" },
+        { "class": "fa-solid fa-arrow-up", "label": "⬆️ Arriba" },
+        { "class": "fa-solid fa-arrow-down", "label": "⬇️ Abajo" },
+        { "class": "fa-solid fa-chevron-right", "label": "› Chevron" },
+        { "class": "fa-solid fa-arrows-rotate", "label": "🔁 Recargar" },
+        { "class": "fa-solid fa-angles-right", "label": "» Doble" },
+        { "class": "fa-solid fa-location-arrow", "label": "📍 Dirección" }
+      ]
+    },
+    {
+      "label": "Negocio y métricas",
+      "icons": [
+        { "class": "fa-solid fa-chart-line", "label": "📈 Crecimiento" },
+        { "class": "fa-solid fa-chart-pie", "label": "🥧 Pie" },
+        { "class": "fa-solid fa-briefcase", "label": "💼 Negocio" },
+        { "class": "fa-solid fa-building", "label": "🏢 Empresa" },
+        { "class": "fa-solid fa-handshake", "label": "🤝 Alianza" },
+        { "class": "fa-solid fa-piggy-bank", "label": "🐷 Ahorro" },
+        { "class": "fa-solid fa-sack-dollar", "label": "💰 Inversión" },
+        { "class": "fa-solid fa-bullseye", "label": "🎯 Objetivo" }
+      ]
+    },
+    {
+      "label": "Personas y equipo",
+      "icons": [
+        { "class": "fa-solid fa-users", "label": "👥 Equipo" },
+        { "class": "fa-solid fa-user", "label": "👤 Usuario" },
+        { "class": "fa-solid fa-user-tie", "label": "🧑‍💼 Ejecutivo" },
+        { "class": "fa-solid fa-user-graduate", "label": "🎓 Formación" },
+        { "class": "fa-solid fa-people-group", "label": "🧑‍🤝‍🧑 Comunidad" },
+        { "class": "fa-solid fa-chalkboard-user", "label": "🧑‍🏫 Mentor" },
+        { "class": "fa-solid fa-people-arrows", "label": "↔️ Networking" },
+        { "class": "fa-solid fa-id-card", "label": "🪪 Identidad" }
+      ]
+    },
+    {
+      "label": "Tecnología",
+      "icons": [
+        { "class": "fa-solid fa-code", "label": "💻 Código" },
+        { "class": "fa-solid fa-microchip", "label": "🔩 Chip" },
+        { "class": "fa-solid fa-robot", "label": "🤖 IA" },
+        { "class": "fa-solid fa-server", "label": "🖥️ Servidor" },
+        { "class": "fa-solid fa-database", "label": "🗄️ Base de datos" },
+        { "class": "fa-solid fa-network-wired", "label": "🌐 Red" },
+        { "class": "fa-solid fa-cloud", "label": "☁️ Nube" },
+        { "class": "fa-solid fa-bug", "label": "🐞 Bug" }
+      ]
+    },
+    {
+      "label": "Marketing y redes",
+      "icons": [
+        { "class": "fa-solid fa-bullhorn", "label": "📣 Anuncio" },
+        { "class": "fa-solid fa-link", "label": "🔗 Enlace" },
+        { "class": "fa-solid fa-share-nodes", "label": "🔗 Compartir" },
+        { "class": "fa-solid fa-hashtag", "label": "# Hashtag" },
+        { "class": "fa-solid fa-tag", "label": "🏷️ Etiqueta" },
+        { "class": "fa-solid fa-paper-plane", "label": "🛩️ Enviar" },
+        { "class": "fa-solid fa-magnifying-glass", "label": "🔎 Búsqueda" },
+        { "class": "fa-solid fa-thumbs-up", "label": "👍 Like" }
+      ]
+    },
+    {
+      "label": "E‑commerce y logística",
+      "icons": [
+        { "class": "fa-solid fa-cart-shopping", "label": "🛒 Carrito" },
+        { "class": "fa-solid fa-bag-shopping", "label": "🛍️ Bolsa" },
+        { "class": "fa-solid fa-credit-card", "label": "💳 Pago" },
+        { "class": "fa-solid fa-receipt", "label": "🧾 Recibo" },
+        { "class": "fa-solid fa-box", "label": "📦 Paquete" },
+        { "class": "fa-solid fa-truck", "label": "🚚 Envío" },
+        { "class": "fa-solid fa-store", "label": "🏬 Tienda" },
+        { "class": "fa-solid fa-barcode", "label": "🏷️ Código" }
+      ]
+    },
+    {
+      "label": "Educación",
+      "icons": [
+        { "class": "fa-solid fa-book", "label": "📘 Libro" },
+        { "class": "fa-solid fa-graduation-cap", "label": "🎓 Graduación" },
+        { "class": "fa-solid fa-pencil", "label": "✏️ Lápiz" },
+        { "class": "fa-solid fa-pen", "label": "🖊️ Pluma" },
+        { "class": "fa-solid fa-highlighter", "label": "🖍️ Resaltador" },
+        { "class": "fa-solid fa-book-open", "label": "📖 Lectura" },
+        { "class": "fa-solid fa-school", "label": "🏫 Escuela" },
+        { "class": "fa-solid fa-chalkboard", "label": "🧮 Pizarra" }
+      ]
+    },
+    {
+      "label": "Salud",
+      "icons": [
+        { "class": "fa-solid fa-heart-pulse", "label": "❤️‍🩹 Salud" },
+        { "class": "fa-solid fa-stethoscope", "label": "🩺 Estetoscopio" },
+        { "class": "fa-solid fa-kit-medical", "label": "🧰 Botiquín" },
+        { "class": "fa-solid fa-pills", "label": "💊 Pastillas" },
+        { "class": "fa-solid fa-syringe", "label": "💉 Vacuna" },
+        { "class": "fa-solid fa-notes-medical", "label": "📋 Informe" },
+        { "class": "fa-solid fa-head-side-virus", "label": "🦠 Salud mental" },
+        { "class": "fa-solid fa-tooth", "label": "🦷 Odontología" }
+      ]
+    },
+    {
+      "label": "Creatividad y medios",
+      "icons": [
+        { "class": "fa-solid fa-palette", "label": "🎨 Paleta" },
+        { "class": "fa-solid fa-paintbrush", "label": "🖌️ Pincel" },
+        { "class": "fa-solid fa-camera", "label": "📷 Cámara" },
+        { "class": "fa-solid fa-image", "label": "🖼️ Imagen" },
+        { "class": "fa-solid fa-film", "label": "🎞️ Vídeo" },
+        { "class": "fa-solid fa-music", "label": "🎵 Música" },
+        { "class": "fa-solid fa-feather", "label": "🪶 Escritura" },
+        { "class": "fa-solid fa-microphone", "label": "🎙️ Podcast" }
+      ]
+    },
+    {
+      "label": "Productividad",
+      "icons": [
+        { "class": "fa-solid fa-list-check", "label": "✅ Checklist" },
+        { "class": "fa-solid fa-clipboard", "label": "📋 Portapapeles" },
+        { "class": "fa-solid fa-calendar-check", "label": "🗓️ Plan" },
+        { "class": "fa-solid fa-stopwatch", "label": "⏱️ Crono" },
+        { "class": "fa-solid fa-hourglass-half", "label": "⏳ Tiempo" },
+        { "class": "fa-solid fa-gear", "label": "⚙️ Ajustes" },
+        { "class": "fa-solid fa-sitemap", "label": "🗺️ Roadmap" },
+        { "class": "fa-solid fa-lightbulb", "label": "💡 Insight" }
+      ]
+    },
+    {
+      "label": "Seguridad",
+      "icons": [
+        { "class": "fa-solid fa-shield-halved", "label": "🛡️ Seguridad" },
+        { "class": "fa-solid fa-lock", "label": "🔒 Bloqueo" },
+        { "class": "fa-solid fa-key", "label": "🔑 Llave" },
+        { "class": "fa-solid fa-user-shield", "label": "👤 Protección" },
+        { "class": "fa-solid fa-eye-slash", "label": "🙈 Privacidad" },
+        { "class": "fa-solid fa-fingerprint", "label": "🛂 Biométrico" },
+        { "class": "fa-solid fa-triangle-exclamation", "label": "⚠️ Riesgo" },
+        { "class": "fa-solid fa-ban", "label": "⛔ Prohibido" }
+      ]
+    },
+    {
+      "label": "Naturaleza y clima",
+      "icons": [
+        { "class": "fa-solid fa-leaf", "label": "🍃 Hoja" },
+        { "class": "fa-solid fa-tree", "label": "🌳 Árbol" },
+        { "class": "fa-solid fa-seedling", "label": "🌱 Brote" },
+        { "class": "fa-solid fa-sun", "label": "☀️ Sol" },
+        { "class": "fa-solid fa-moon", "label": "🌙 Luna" },
+        { "class": "fa-solid fa-cloud-sun", "label": "⛅ Clima" },
+        { "class": "fa-solid fa-fire", "label": "🔥 Fuego" },
+        { "class": "fa-solid fa-droplet", "label": "💧 Agua" }
+      ]
+    },
+    {
+      "label": "Comunicación",
+      "icons": [
+        { "class": "fa-solid fa-comments", "label": "💬 Conversación" },
+        { "class": "fa-solid fa-envelope", "label": "✉️ Correo" },
+        { "class": "fa-solid fa-phone", "label": "📞 Teléfono" },
+        { "class": "fa-solid fa-message", "label": "💬 Mensaje" },
+        { "class": "fa-solid fa-inbox", "label": "📥 Inbox" },
+        { "class": "fa-solid fa-paperclip", "label": "📎 Adjunto" },
+        { "class": "fa-solid fa-quote-left", "label": "❝ Cita" },
+        { "class": "fa-solid fa-rss", "label": "📡 RSS" }
+      ]
+    },
+    {
+      "label": "Documentos",
+      "icons": [
+        { "class": "fa-solid fa-file-lines", "label": "📄 Documento" },
+        { "class": "fa-solid fa-file-pdf", "label": "📕 PDF" },
+        { "class": "fa-solid fa-file-word", "label": "📘 Word" },
+        { "class": "fa-solid fa-file-excel", "label": "📗 Excel" },
+        { "class": "fa-solid fa-folder", "label": "📁 Carpeta" },
+        { "class": "fa-solid fa-folder-open", "label": "📂 Abierta" },
+        { "class": "fa-solid fa-bookmark", "label": "🔖 Marcador" },
+        { "class": "fa-solid fa-print", "label": "🖨️ Imprimir" }
+      ]
+    },
+    {
+      "label": "Redes sociales (Brands)",
+      "icons": [
+        { "class": "fa-brands fa-linkedin", "label": "LinkedIn" },
+        { "class": "fa-brands fa-x-twitter", "label": "X/Twitter" },
+        { "class": "fa-brands fa-instagram", "label": "Instagram" },
+        { "class": "fa-brands fa-facebook", "label": "Facebook" },
+        { "class": "fa-brands fa-youtube", "label": "YouTube" },
+        { "class": "fa-brands fa-tiktok", "label": "TikTok" },
+        { "class": "fa-brands fa-github", "label": "GitHub" },
+        { "class": "fa-brands fa-whatsapp", "label": "WhatsApp" }
+      ]
+    }
+  ]
+}

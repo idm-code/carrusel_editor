@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Carruseles LinkedIn a PDF</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Generador de Carruseles para LinkedIn</h1>
+            <p class="subtitle">Crea y exporta carruseles impactantes en formato PDF</p>
+        </header>
+        
+        <div class="app-container">
+            <div class="editor">
+                <h2>Diseña tu carrusel</h2>
+                
+                <div class="form-group">
+                    <label>Plantilla de diseño:</label>
+                    <div class="template-options">
+                        <div class="template active" data-template="minimalista">
+                            <i class="fas fa-minimize"></i> Minimalista
+                        </div>
+                        <div class="template" data-template="moderno">
+                            <i class="fas fa-gem"></i> Moderno
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Fondo:</label>
+                    <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+                        <div>
+                            <span style="font-size:14px; opacity:0.8;">Color</span>
+                            <input type="color" id="bg-color-1" value="#0077b5" />
+                        </div>
+                        <label style="display:flex; align-items:center; gap:8px;">
+                            <input type="checkbox" id="use-gradient" /> Usar degradado
+                        </label>
+                        <div id="gradient-controls" style="display:none;">
+                            <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-top:6px;">
+                                <span>Hasta</span>
+                                <input type="color" id="bg-color-2" value="#50c878" />
+                                <label for="bg-angle">Ángulo: <span id="bg-angle-value">0°</span></label>
+                                <input type="range" id="bg-angle" min="0" max="360" value="0" />
+                            </div>
+                        </div>
+                    </div>
+                    <small>El color del texto se ajusta automáticamente para mantener contraste.</small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="slide-title">Título de la diapositiva:</label>
+                    <input type="text" id="slide-title" placeholder="Escribe un título impactante">
+                </div>
+                
+                <div class="form-group">
+                    <label for="slide-content">Contenido:</label>
+                    <textarea id="slide-content" placeholder="Añade el contenido de tu diapositiva (máx. 150 caracteres)"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="slide-icon-select">Icono opcional:</label>
+                    <select id="slide-icon-select">
+                        <option value="">Cargando iconos…</option>
+                    </select>
+                    <small>Selecciona un icono. Se mostrará sobre el título.</small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="slide-image">Imagen de fondo (URL):</label>
+                    <input type="text" id="slide-image" placeholder="Pega la URL de una imagen (opcional)">
+                    <small>O deja en blanco para un fondo de color</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="slide-image-file">O sube una imagen desde tu equipo:</label>
+                    <input type="file" id="slide-image-file" accept="image/*">
+                    <small>Las imágenes locales se incrustan para evitar problemas de permisos al exportar a PDF.</small>
+                </div>
+                
+                <button id="add-slide">
+                    <i class="fas fa-plus"></i> Añadir diapositiva
+                </button>
+                
+                <div class="tip">
+                    <strong>Consejo:</strong> LinkedIn recomienda imágenes con relación de aspecto 1:1 (1080x1080 píxeles) para carruseles.
+                </div>
+                
+                <div class="form-group">
+                    <label>Tus diapositivas:</label>
+                    <div class="slides-list" id="slides-list"></div>
+                </div>
+                
+                <div class="actions">
+                    <button id="download-pdf" class="btn-success">
+                        <i class="fas fa-file-pdf"></i> Exportar a PDF
+                    </button>
+                    <button id="reset-btn" class="btn-outline">
+                        <i class="fas fa-redo"></i> Reiniciar
+                    </button>
+                </div>
+            </div>
+            
+            <div class="preview-container">
+                <h2>Vista previa</h2>
+                
+                <div class="slide-preview" id="slide-preview">
+                    <div class="slide-counter">1/1</div>
+                    <div class="slide-icon" aria-hidden="true"></div>
+                    <h3 class="slide-title">Título de ejemplo</h3>
+                    <p class="slide-content">Este es un contenido de ejemplo para tu diapositiva.</p>
+                </div>
+                
+                <div class="navigation">
+                    <button id="prev-slide"><i class="fas fa-chevron-left"></i> Anterior</button>
+                    <button id="next-slide">Siguiente <i class="fas fa-chevron-right"></i></button>
+                </div>
+                
+                <div class="tip" style="margin-top: 30px;">
+                    <strong>Nota:</strong> Después de exportar a PDF, puedes imprimir las diapositivas o convertirlas a imágenes para publicar en LinkedIn.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
