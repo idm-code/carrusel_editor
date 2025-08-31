@@ -290,6 +290,8 @@ async function exportToPDF() {
       content.textContent = slide.content;
       content.style.fontSize = slide.template === 'minimalista' ? '18px' : '20px';
       content.style.lineHeight = '1.5';
+      content.style.whiteSpace = 'pre-wrap';
+      content.style.wordBreak = 'break-word';
       content.style.color = determineTextColor(slide);
 
       contentDiv.appendChild(title);
